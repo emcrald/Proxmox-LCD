@@ -1,0 +1,12 @@
+[Unit]
+Description=Proxmox LCD Display Service
+After=network.target
+
+[Service]
+ExecStartPre=/bin/sh -c 'while [ ! -e /dev/arduino-lcd ]; do sleep 1; done'
+ExecStart=/usr/bin/python3 /opt/lcd_display.py
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
