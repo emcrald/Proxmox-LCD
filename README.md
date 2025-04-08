@@ -13,7 +13,7 @@ LCD Screen w/ I2C module
 
 ### Proxmox Shell
 
-`nano /opt/proxmox-script.py` 
+`nano /opt/lcd-display.py` 
 > Paste in code
 
 `nano /etc/systemd/system/lcd-display.service`
