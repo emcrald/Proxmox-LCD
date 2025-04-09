@@ -15,6 +15,7 @@ LCD Screen w/ I2C module
 
 `nano /opt/lcd_display.py` 
 > Paste in code
+
 > Update config to suit your system
 
 `nano /etc/systemd/system/lcd-display.service`
