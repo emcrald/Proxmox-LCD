@@ -11,6 +11,16 @@ LCD Screen w/ I2C module
 - SDA -> A4
 - SCL -> A5
 
+### API Key
+> Create an API key
+
+![image](https://github.com/user-attachments/assets/a4dc50cf-ff87-4f19-959c-c120a3d048d3)
+
+> Give it the right permissions
+
+![image](https://github.com/user-attachments/assets/eef52c7c-dc3e-43fc-91a0-e53795753634)
+
+
 ### Proxmox Shell
 
 `nano /opt/lcd_display.py` 
